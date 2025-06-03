@@ -58,7 +58,7 @@ const Projects = () => {
       <Heading first={"My"} second={"Projects"} />
       <div className="grid grid-cols-1 grid-rows-6 gap-4 sm:grid-cols-9 sm:grid-rows-3 sm:gap-3 lg:pt-10">
         {/* 1 */}
-        <div className="group grid-item relative sm:col-span-6 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-86 overflow-hidden cursor-pointer">
+        <div className="group grid-item relative sm:col-span-6 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-96 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="one.png"
